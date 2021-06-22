@@ -42,7 +42,7 @@ def get_future_predictions(score_arr, model):
 
 def main():
     # load test data
-    dataset = pd.read_csv('tellus_fake_test_data.csv')
+    dataset = pd.read_csv('fake_test_data.csv')
 
     # load saved model
     model = keras.models.load_model('resp_rate.h5')
