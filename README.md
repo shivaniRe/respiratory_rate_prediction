@@ -1,4 +1,4 @@
-# tellus_takehome
+# Respiratory Rate predictions
 This project uses time series data along with other features like 'hour' and 'minute' to predict future respiratory rates. 
 These future predictions are used to alert if the user has abnormal respiratory rate.
 
