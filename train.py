@@ -94,7 +94,7 @@ def run_job(dataset):
     
 def main():
     # load dataset
-    dataset = pd.read_csv('tellus_take_home_data_2020_05.csv')
+    dataset = pd.read_csv('respiratory_rate_data_2020_05.csv')
     # call run_job
     model, test_X, test_y = run_job(dataset)
     # save trained model
